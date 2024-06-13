@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, #050801, #1a1710, #120300, #0f0f0f, #1b1b1b);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+input{
+    color: black;
+}
+.tudo{
+    text-align: center;
+    border: 2px solid white;
+    padding: 30px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 10px;
+}
+.botao{
+    padding: 8px;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+#btnCalc{
+    margin-right: 15px;
+}
+#btnLimp{
+    margin-left: 2px;
+}
+.resposta{
+    padding-top: 30px;
+    font-size: large;
+}
+.input{
+    padding: 10px;
+}
+label{
+    font-size: large;
+}
