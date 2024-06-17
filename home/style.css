@@ -1,0 +1,83 @@
+*{
+    background-color: rgb(236, 222, 255);;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(216, 189, 255);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 0;
+}
+
+img{
+    height: 100px;
+    background-color: rgb(216, 189, 255);
+}
+
+h1{
+    background-color: rgb(216, 189, 255);
+}
+
+li{
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.button-72 {
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(rgba(179, 132, 201, .84), rgba(57, 31, 91, .84) 50%);
+  border-radius: 42px;
+  border-width: 0;
+  box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,rgba(179, 132, 201, 0.4) 0 8px 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+  font-family: Quicksand,sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: .04em;
+  line-height: 16px;
+  margin: 15px;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 18px 18px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(57, 31, 91, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+}
+
+.button-72:hover {
+  background-image: linear-gradient(#B384C9, #391F5B 50%);
+}
+
+@media (min-width: 768px) {
+  .button-72 {
+    font-size: 21px;
+    padding: 18px 34px;
+  }
+}
+
+#primeiro{
+    margin-top: 30px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    align-items: left;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 59px;
+    font-size: large;
+}
